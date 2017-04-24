@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    style="@style/Match_Parent">
+
+    <ScrollView style="@style/Match_Parent">
+
+        <LinearLayout
+            style="@style/Match_Parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/Translate_Elements_Style"
+                android:background="@drawable/view_text_style"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    style="@style/Match_Parent"
+
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinnerLangFrom"
+                        style="@style/Match_Parent"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:textAlignment="center"
+
+                        android:textSize="20sp"></Spinner>
+
+
+                    <ImageButton
+                        android:id="@+id/buttonChangeLang"
+                        android:layout_width="@dimen/dim_square_button_middle_size"
+                        android:layout_height="@dimen/dim_square_button_middle_size"
+                        android:layout_gravity="center"
+                        android:background="@android:drawable/screen_background_light_transparent"
+                        android:src="@drawable/ic_compare_arrows_black_24dp" />
+
+
+                    <Spinner
+                        android:id="@+id/spinnerLangTo"
+                        style="@style/Match_Parent"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:textAlignment="center"></Spinner>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ToggleButton
+                    android:id="@+id/toggle_bookmark"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="top|right"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn=""
+                    android:background="@drawable/d_toggle_bookmark"/>
+                <EditText
+                    android:id="@+id/translateTextInput"
+                    style="@style/Translate_Elements_Style"
+                    android:background="@drawable/view_text_style"
+                    android:hint="@string/input_text"
+                    android:inputType="textCapSentences" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/buttonTranslate"
+                style="@style/Translate_Elements_Style"
+                android:layout_gravity="center"
+                android:background="@color/buttonTranslate"
+
+                android:text="@string/translate_button" />
+
+
+            <TextView
+                android:id="@+id/translatedText"
+                style="@style/Translate_Elements_Style"
+                android:background="@drawable/view_text_style"
+                android:hint="@string/incomming_translate"
+                android:inputType="textCapSentences"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffdc62</color>
+    <color name="colorPrimaryDark">#ffffc254</color>
+    <color name="colorAccent">#807342</color>
+
+
+
+    <color name="bookmarkYes">#9c9700</color>
+    <color name="bookmarkNo">#2d2828</color>
+    <color name="c_inactive">#ffcbcbcb</color>
+    <color name="c_inactive_1">#ff868f99</color>
+    <color name="c_active">#ff000000</color>
+    <color name="c_active_1">#ff868f99</color>
+    buttonTranslate
+
+    <color name="buttonTranslate">#f2ff39</color>
+</resources>

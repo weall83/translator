@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">translator</string>
+    <string name="title_home">Translate</string>
+    <string name="title_dashboard">History</string>
+    <string name="title_notifications">Favorites</string>
+    <string name="hello_blank_fragment">blank</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="input_text">Enter text for translationа</string>
+    <string name="translate_button">Translate</string>
+    <string name="incomming_translate">here will be translation</string>
+    <string name="connection">Connection</string>
+    <string name="choose_language">choose language</string>
+    <string name="change_language_button">&#60;----&#62;</string>
+    <string name="empty_history_text">no history</string>
+    <string name="empty_history_start">translate some text</string>
+    <string name="empty_favourites_text">no favorites</string>
+    <string name="translate_fragment_head">Translation</string>
+    <string name="history_fragment_head">History</string>
+    <string name="favourites_fragment_head">Favorites</string>
+    <string name="delete_history_text">delete history</string>
+    <string name="delete_dialog_msg">Delete history?</string>
+    <string name="delete_history_yes">yes</string>
+    <string name="delete_history_no">cancel</string>
+    <string name="bookmark">all to faforites</string>
+
+</resources>
+
